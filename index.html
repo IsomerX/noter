@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="download.css" />
+    </head>
+    <body>
+        <!-- <input type="text" id="text-input" /> -->
+        <form id="form">
+            <textarea id="text-input"></textarea>
+
+
+            <label for="font">Choose a font: </label>
+            <select id="fonts">
+                <option value="indie" id="kalam" class="indie">
+                    Indie
+                </option>
+                <option value="kalam" id="kalam" class="kalam">Kalam</option>
+            </select>
+            <button type="submit" onsubmit="clickHandler">change</button>
+        </form>
+
+        <button id="downloader">Download Now!</button>
+
+        <div id="result">
+            <img src="./page.jpg" alt="" id="page" />
+            <div id="text" class="indie">
+            </div>
+        </div>
+
+        <div id="previewImg"></div>
+
+        <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+        <script src="download.js"></script>
+    </body>
+</html>

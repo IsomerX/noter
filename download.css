@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    gap: 1em;
+}
+
+#result{
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-size: 10em; */
+    width: 809px;
+    position: relative;
+    /* line-height: 0; */
+}
+
+img{
+    width: 100%;
+    /* position: absolute; */
+}
+
+#text {
+    top: 120px;
+    left: 130px; 
+    font-size: 25px;
+    position: absolute;
+    line-height: 30px;
+    vertical-align: bottom;
+    height: 963px;
+    overflow: hidden;
+    /* background-color: rgba(255,255,255,0.6); */
+}
+
+.indie{
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Indie Flower', cursive;
+}
+
+.kalam{
+    font-family: 'Kalam', cursive;
+}
+
+#text .kalam{
+    font-size: 23px !important;
+}
+
+select{
+    font-size: 1.5em;
+    border-radius: 10px;
+    padding: 0.21em 1em;
+}
+
+option{
+    width: 5em;
+    font-size: 1em;
+}
+
+form{
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    gap: 1em;
+}
+
+textarea {
+    width: 50%;
+    height: 30vh;
+    font-size: 2em;
+    padding: 0.2em;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 2em;
+}
+
+button{
+    padding: 1em;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 1em;
+    transition: 0.2s all ease-in-out;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+button:active{
+    background-color: red;
+}
+
+#result{
+    margin: 0 auto;
+}
